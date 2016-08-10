@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>主页示例</title>
+	<link rel="stylesheet" href="bs/css/bootstrap.min.css">
+	<script src="bs/js/bootstrap.min.js"></script>
+	<script src="bs/js/bootstrap.min.css"></script>
+	<script src="bs/js/holder.min.js"></script>
+	<script src="bs/js/jquery.min.js"></script>
+	<style type="text/css">
+		#header {width:100%;height:650px;background-image:url(banner.jpg);background-repeat: no-repeat;}
+		#heade {width: 100%;height:150px;}
+		#logo{width:20%;height:100px;padding:25px;float:left;}
+		#daohang{width:60%; height:100px;padding:25px;float: right;}
+		#daohang ul{list-style: none; float:right;padding-right: 200px;}
+		#daohang li{float:left; padding-left: 25px;}
+		#women,#chanpin,#guanyu{width:100%;height:650px;}
+		#women{background-image: url(women.jpg);}
+		#chanpin{background-image: url(chanpin.jpg);}
+		#guanyu{background-image: url(guanyu.jpg);}
+		#foot{width:100%;height:300px;background: #cdcdcd;padding-top:30px;padding-left: 250px;}
+		/*#foot ul{list-style: none; float:left;width: 100%;}
+		#foot li{float:left;height:250px;width:30%;padding-right:10px;}*/
+		#foot dl{width:25%;float:left;}
+		#fhdb{width:40px;height:40px;position: fixed;right:0;top:600px;}
+		.ddjj{height:70px;line-height: 70px;}
+	</style>
+</head>
+<body>
+	<div id='header'>
+		<div id='heade'>
+			<div id='logo'>
+				<img src="logo.png">
+			</div>
+
+			<div id='daohang'>		
+				<ul>
+					<li><a href="" class="btn btn-default">首页</a></li>
+					<li><a href="#women" class="btn btn-default">我们</a></li>
+					<li><a href="#chanpin" class="btn btn-default">产品</a></li>
+					<li><a href="#guanyu" class="btn btn-default">关于</a></li>
+					<li><a href="#foot">    </a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id='women' name='women'>
+		<h1>我们</h1>
+	</div>
+	<div id='chanpin' name='chanping'>
+		<h1>产品</h1>
+	</div>
+	<div id='guanyu'name='guanyu'>
+		<h1>关于</h1>
+
+	</div>
+	<div id='foot' name='foot'>
+		<dl>
+			<dt>第一栏</dt>
+			<dd class='ddjj'><a href="">这是一个链接</a></dd>
+			<dd class='ddjj'><a href="">这是一个链接</a></dd>
+			<dd class='ddjj'><a href="">这是一个链接</a></dd>
+		</dl>
+		<dl>
+			<dt>第二栏</dt>
+			<dd class='ddjj'><a href="">这是一个链接</a></dd>
+			<dd class='ddjj'><a href="">这是一个链接</a></dd>
+			<dd class='ddjj'><a href="">这是一个链接</a></dd>
+		</dl>
+		<dl>
+			<dt>第三栏</dt>
+			<dd class='ddjj'><a href="">这是一个链接</a></dd>
+			<dd class='ddjj'><a href="">这是一个链接</a></dd>
+			<dd class='ddjj'><a href="">这是一个链接</a></dd>
+		</dl>
+		<dl>
+			<dt>第四栏</dt>
+			<dd class='ddjj'><a href="">这是一个链接</a></dd>
+			<dd class='ddjj'><a href="">这是一个链接</a></dd>
+			<dd class='ddjj'><a href="">这是一个链接</a></dd>
+		</dl>
+		
+	</div>
+	<div style='text-align:center'>版权信息<a href="">营业执照/网站备案查看</a></div>
+	<div id='fhdb'>
+		<a href="javascript:scroll(0,0)">返回顶部</a>
+	</div>
+</body>
+</html>
